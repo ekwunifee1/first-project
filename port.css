@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 25px;
+    text-decoration: none;
+    list-style: none
+}
+
+.logo{
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, cursive;
+     color: #fff !important;
+     font-size: xx-large;
+     padding-left: 20px;
+}
+.container{
+   display: grid;
+   grid-template-columns: 45% 45%;
+   height: calc(100vh - 80px);
+   align-items: center;
+   justify-content: space-evenly;
+   background-color: #24271b;
+   
+}
+h2{
+    color: #d5d5d3;
+    font-size: 50px;
+    /* font-family: 'Lobster'; */
+    font-family: 'Roboto', sans-serif;
+}
+.info p {
+color: #c9ab3a;
+line-height: 50px;
+font-family: 'Roboto', sans-serif;
+}
+.info button{
+    padding: 7px 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0  0  1 rgb(228, 227, 227);
+}
+.info button:first-child{
+    color: #2d3b03;
+}
+.button_con{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+.info button:last-child{
+    background-color: #5f4c09;
+    color: #d3d375;
+}
+nav{
+    background-color: #461709;
+    text-decoration: none;
+    align-items: center;
+
+}
+a{
+    color: rgb(184, 153, 153)
+}
+
+body{
+    
+} 
+.img{
+
+}
+h4{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    color: #8f8f76;
+    font-size: 40px;
+    margin: 20px 0;
+    font-family: 'Roboto', sans-serif;
+}
+.services_list{
+    display:grid;
+    color: #040704;
+    grid-template-columns: 30% 30% 30%;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.services_list div{
+    box-shadow: 0 0  5px #fcfc56;
+    min-height: 10em;
+}
+.services_list img{
+    width: 70px;
+    display: block;
+    margin: auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: px;
+    box-shadow: 0  0 10px gray;
+    position: relative;
+    
+}
+ 
+ .p{
+     margin-bottom: 200px;
+ }
+.h41{
+    margin-top: 100px;
+}
+
+.h42{
+    margin-top: 100px;
+}
+
+.h43{
+    margin-top:100px ;
+}
+
+.con2{
+    height: 1px;
+    width: 5px;
+}
